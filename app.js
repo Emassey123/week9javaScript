@@ -12,10 +12,20 @@ console.log(min(23,40));
 
 // Easy
 
-let students = [["Josh", "Kaleb", "Cynthia"], ["Allen", "Blueman", "Moralez"], ["14", "16", "15"]];
+// let students = [["Josh", "Kaleb", "Cynthia"], ["Allen", "Blueman", "Moralez"], ["14", "16", "15"]];
 
-console.log(`Hello my name is ${students [0][1]} ${students[1][1]} I am ${students[2][1]} years old!`);
+// console.log(`Hello my name is ${students [0][1]} ${students[1][1]} I am ${students[2][1]} years old!`);
 
+
+let personOne = {firstName: "Josh", lastName: "Allen", age: 14};
+
+let personTwo = {firstName: "Kaleb", lastName: "Blueman", age: 16};
+
+let personThree = {firstName: "Cynthia", lastName: "Moralez", age: 15};
+
+let = students = [personOne, personTwo, personThree];
+
+console.log(`Hello my name is ${students[1].firstName} ${students[1].lastName} I am ${students[1].age} years old`);
 // Medium 
 
 let userInput = Number(prompt("Enter a number 1 - 12"));
@@ -57,3 +67,10 @@ console.log(`Is Tom's BMI is higher than Jerry's BMI? ${booCheck}`);
 
 
 
+let rat = [1, 2, 3, 4, 5]
+
+for (let i = 0; i < 5; i++) {
+    if(i = 5) {
+
+    }
+}
